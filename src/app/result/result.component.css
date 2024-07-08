@@ -1,0 +1,47 @@
+.result {
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .result h2 {
+    margin-bottom: 20px;
+  }
+  
+  .result p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .correct {
+    color: #00FF00; /* Green */
+  }
+  
+  .incorrect {
+    color: #FF0000; /* Red */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  
+  
+  

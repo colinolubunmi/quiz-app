@@ -1,0 +1,22 @@
+<div class="result">
+    <h2>Quiz Results</h2>
+    <p>You got {{ correctCount }} out of {{ questions.length }} correct!</p>
+    <div *ngFor="let question of questions; let i = index">
+      <p [ngClass]="{'correct': answers[i] === question.correctAnswer, 'incorrect': answers[i] !== question.correctAnswer}">
+        {{ question.question }} - Your Answer: {{ question.options[answers[i]] }} 
+        <span *ngIf="answers[i] === question.correctAnswer" class="correct">(Correct)</span>
+        <span *ngIf="answers[i] !== question.correctAnswer" class="incorrect">(Incorrect)</span>
+      </p>
+    </div>
+    <button (click)="goHome()">Home</button>
+  </div>
+  
+  
+  
+  
+
+
+  
+  
+  
+
